@@ -1,0 +1,4 @@
+os: osx
+osx_image: xcode10.2
+language: swift
+script: xcodebuild clean build test -workspace UserActivity.xcworkspace -scheme "UserActivity" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=12.2,name=iPhone Xʀ" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
