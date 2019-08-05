@@ -189,7 +189,6 @@
 				6FA7773422F5C63E00D5A471 /* Controller */,
 				6F366EFA22F50CB700AFB3B4 /* Network */,
 				6F366EF022F5061200AFB3B4 /* Protocol */,
-				6F366EEF22F5037800AFB3B4 /* DataSource */,
 				6F366EEE22F5036500AFB3B4 /* View */,
 				6F366EED22F5035700AFB3B4 /* ViewControlller */,
 				6F366ED722F4FFF400AFB3B4 /* Model */,
@@ -297,13 +296,6 @@
 				6F39DB4122F825C500A930AA /* AnnotationView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		6F366EEF22F5037800AFB3B4 /* DataSource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataSource;
 			sourceTree = "<group>";
 		};
 		6F366EF022F5061200AFB3B4 /* Protocol */ = {

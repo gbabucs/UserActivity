@@ -58,8 +58,7 @@ class UserDetailViewController: UIViewController {
         self.company.text = companyName + companyCatchPhrase + companyBS
     }
     
-    func determineCurrentLocation()
-    {
+    func determineCurrentLocation() {
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -98,17 +97,10 @@ extension UserDetailViewController: CLLocationManagerDelegate {
         let latitude = Double(user?.address?.geo?.lat ?? "")
         let longitude = Double(user?.address?.geo?.lng ?? "")
         let userLocation: CLLocation = CLLocation(latitude: latitude ?? 0.0, longitude: longitude ?? 0.0)
-        
-        // Call stopUpdatingLocation() to stop listening for location updates,
-        // other wise this function will be called every time when user location changes.
-        //manager.stopUpdatingLocation()
-        
         let center = CLLocationCoordinate2D(latitude: userLocation.coordinate.latitude, longitude: userLocation.coordinate.longitude)
         let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
         
         mapView.setRegion(region, animated: true)
-        
-        print(userLocation)
         
         let annotationView: MKPointAnnotation = AnnotationView(user: user, location: userLocation)
         

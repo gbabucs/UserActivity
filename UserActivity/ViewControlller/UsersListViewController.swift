@@ -15,6 +15,12 @@ class UsersListViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
+    //--------------------------------------------------------------------------
+    // MARK: - properties
+    //--------------------------------------------------------------------------
+    
+    let reachability : Reachability! = Reachability()
+    
     private(set) var users: [Users]? {
         didSet {
             self.tableView.reloadData()
@@ -22,12 +28,6 @@ class UsersListViewController: UIViewController {
     }
     
     private(set) var selectedUser: Users?
-    
-    //--------------------------------------------------------------------------
-    // MARK: - properties
-    //--------------------------------------------------------------------------
-    
-    let reachability : Reachability! = Reachability()
     
     private var isReachable: Bool {
         guard reachability.connection != .none else {
