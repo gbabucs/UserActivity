@@ -1,13 +1,15 @@
 PODS:
+  - ActivityFramework (0.0.1)
   - IHProgressHUD (0.1.4)
-  - Nuke (7.6.2)
+  - Nuke (8.0.1)
   - ReachabilitySwift (4.1.0)
-  - SDWebImage (5.0.2):
-    - SDWebImage/Core (= 5.0.2)
-  - SDWebImage/Core (5.0.2)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
   - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
+  - ActivityFramework (from `https://github.com/gbabucs/ActivityFramework.git`)
   - IHProgressHUD
   - Nuke
   - ReachabilitySwift (= 4.1.0)
@@ -22,13 +24,23 @@ SPEC REPOS:
     - SDWebImage
     - SwiftyJSON
 
+EXTERNAL SOURCES:
+  ActivityFramework:
+    :git: https://github.com/gbabucs/ActivityFramework.git
+
+CHECKOUT OPTIONS:
+  ActivityFramework:
+    :commit: 31de392e259acdf6153eca70474f693e8290a0a1
+    :git: https://github.com/gbabucs/ActivityFramework.git
+
 SPEC CHECKSUMS:
+  ActivityFramework: d868c9d2987218fe2c40e855ef74711b85469b8f
   IHProgressHUD: a01846bfbb581c761c79747c67b08387c3bdfae3
-  Nuke: 392eff7cb037adbec6699febe9237849ac5dcc47
+  Nuke: e6a65472f59c1bfe779cb495760951f0121ef7c0
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
-  SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 261a42140f4009dc7b06a0925e15bf534004ca19
+PODFILE CHECKSUM: db4c24d6b523e2083f549b0d68755e529d22a982
 
 COCOAPODS: 1.6.1

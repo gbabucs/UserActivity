@@ -9,6 +9,7 @@
 import UIKit
 import Reachability
 import IHProgressHUD
+import ActivityFramework
 
 class PhotoViewController: UIViewController {
     

@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserModel"
+provides-nominal:
+- "12UserActivity0A5ModelC"
+provides-member:
+- ["12UserActivity0A5ModelC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "??"
+- "Addres"
+- "AssignmentPrecedence"
+- "Company"
+- "Int"
+- "String"
+- !private "StringLiteralType"
+- "UserModel"
+- "Users"
+depends-member:
+- !private ["12UserActivity6AddresV", "city"]
+- !private ["12UserActivity6AddresV", "street"]
+- !private ["12UserActivity6AddresV", "suite"]
+- !private ["12UserActivity6AddresV", "zipcode"]
+- !private ["12UserActivity7CompanyV", "bs"]
+- !private ["12UserActivity7CompanyV", "catchPhrase"]
+- !private ["12UserActivity7CompanyV", "name"]
+- !private ["Se", "address"]
+- !private ["Se", "bs"]
+- !private ["Se", "catchPhrase"]
+- !private ["Se", "city"]
+- !private ["Se", "id"]
+- !private ["Se", "name"]
+- !private ["Se", "phone"]
+- !private ["Se", "street"]
+- !private ["Se", "suite"]
+- !private ["Se", "username"]
+- !private ["Se", "website"]
+- !private ["Se", "zipcode"]
+- !private ["SE", "address"]
+- !private ["SE", "bs"]
+- !private ["SE", "catchPhrase"]
+- !private ["SE", "city"]
+- !private ["SE", "id"]
+- !private ["SE", "name"]
+- !private ["SE", "phone"]
+- !private ["SE", "street"]
+- !private ["SE", "suite"]
+- !private ["SE", "username"]
+- !private ["SE", "website"]
+- !private ["SE", "zipcode"]
+- ["12UserActivity0A5ModelC", "Addres"]
+- ["12UserActivity0A5ModelC", "Company"]
+- ["12UserActivity0A5ModelC", "Int"]
+- ["12UserActivity0A5ModelC", "String"]
+- ["12UserActivity0A5ModelC", "Users"]
+- ["12UserActivity0A5ModelC", "address"]
+- ["12UserActivity0A5ModelC", "addressInfo"]
+- ["12UserActivity0A5ModelC", "company"]
+- ["12UserActivity0A5ModelC", "companyInfo"]
+- ["12UserActivity0A5ModelC", "email"]
+- ["12UserActivity0A5ModelC", "id"]
+- ["12UserActivity0A5ModelC", "init"]
+- ["12UserActivity0A5ModelC", "name"]
+- ["12UserActivity0A5ModelC", "phone"]
+- ["12UserActivity0A5ModelC", "username"]
+- ["12UserActivity0A5ModelC", "website"]
+- !private ["12UserActivity5UsersV", "address"]
+- !private ["12UserActivity5UsersV", "id"]
+- !private ["12UserActivity5UsersV", "name"]
+- !private ["12UserActivity5UsersV", "phone"]
+- !private ["12UserActivity5UsersV", "username"]
+- !private ["12UserActivity5UsersV", "website"]
+depends-nominal:
+- !private "12UserActivity6AddresV"
+- !private "12UserActivity7CompanyV"
+- !private "Se"
+- !private "SE"
+- "12UserActivity0A5ModelC"
+- !private "12UserActivity5UsersV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "333a0f8945cc9178881b1cb6ecbfd3fc"

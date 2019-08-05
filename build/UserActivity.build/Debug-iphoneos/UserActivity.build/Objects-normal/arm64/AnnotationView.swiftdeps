@@ -1,0 +1,166 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnnotationView"
+provides-nominal:
+- "12UserActivity14AnnotationViewC"
+provides-member:
+- ["12UserActivity14AnnotationViewC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnnotationView"
+- "AssignmentPrecedence"
+- "CLLocation"
+- !private "CLLocationCoordinate2DMake"
+- "MKPointAnnotation"
+- !private "StringLiteralType"
+- "Users"
+depends-member:
+- !private ["12UserActivity6AddresV", "city"]
+- ["12UserActivity14AnnotationViewC", "CLLocation"]
+- !private ["12UserActivity14AnnotationViewC", "CLLocationCoordinate2DMake"]
+- ["12UserActivity14AnnotationViewC", "Users"]
+- !private ["12UserActivity14AnnotationViewC", "coordinate"]
+- ["12UserActivity14AnnotationViewC", "deinit"]
+- ["12UserActivity14AnnotationViewC", "init"]
+- !private ["12UserActivity14AnnotationViewC", "subtitle"]
+- !private ["12UserActivity14AnnotationViewC", "title"]
+- !private ["So10CLLocationC", "coordinate"]
+- !private ["So22CLLocationCoordinate2DV", "latitude"]
+- !private ["So22CLLocationCoordinate2DV", "longitude"]
+- !private ["s7CVarArgP", "CLLocationCoordinate2DMake"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subtitle"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationCoordinate2DMake"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subtitle"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "CLLocationCoordinate2DMake"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subtitle"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["Se", "address"]
+- !private ["Se", "city"]
+- !private ["Se", "name"]
+- !private ["SE", "address"]
+- !private ["SE", "city"]
+- !private ["SE", "name"]
+- !private ["SQ", "CLLocationCoordinate2DMake"]
+- ["SQ", ""]
+- !private ["SQ", "coordinate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subtitle"]
+- !private ["SQ", "title"]
+- !private ["SH", "CLLocationCoordinate2DMake"]
+- ["SH", ""]
+- !private ["SH", "coordinate"]
+- !private ["SH", "init"]
+- !private ["SH", "subtitle"]
+- !private ["SH", "title"]
+- !private ["So12MKAnnotationP", "CLLocationCoordinate2DMake"]
+- ["So12MKAnnotationP", ""]
+- !private ["So12MKAnnotationP", "coordinate"]
+- !private ["So12MKAnnotationP", "init"]
+- !private ["So12MKAnnotationP", "subtitle"]
+- !private ["So12MKAnnotationP", "title"]
+- ["So17MKPointAnnotationC", "CLLocation"]
+- !private ["So17MKPointAnnotationC", "CLLocationCoordinate2DMake"]
+- ["So17MKPointAnnotationC", "Users"]
+- ["So17MKPointAnnotationC", ""]
+- !private ["So17MKPointAnnotationC", "coordinate"]
+- ["So17MKPointAnnotationC", "init"]
+- !private ["So17MKPointAnnotationC", "subtitle"]
+- !private ["So17MKPointAnnotationC", "title"]
+- ["So7MKShapeC", "CLLocation"]
+- !private ["So7MKShapeC", "CLLocationCoordinate2DMake"]
+- ["So7MKShapeC", "Users"]
+- !private ["So7MKShapeC", "coordinate"]
+- ["So7MKShapeC", "init"]
+- !private ["So7MKShapeC", "subtitle"]
+- !private ["So7MKShapeC", "title"]
+- !private ["So8NSCodingP", "coordinate"]
+- !private ["So9NSCopyingP", "coordinate"]
+- ["So8NSObjectC", "CLLocation"]
+- !private ["So8NSObjectC", "CLLocationCoordinate2DMake"]
+- ["So8NSObjectC", "Users"]
+- !private ["So8NSObjectC", "coordinate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "subtitle"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectP", "CLLocationCoordinate2DMake"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "coordinate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "subtitle"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So14NSSecureCodingP", "coordinate"]
+- !private ["12UserActivity5UsersV", "address"]
+- !private ["12UserActivity5UsersV", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationCoordinate2DMake"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subtitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+depends-nominal:
+- !private "12UserActivity6AddresV"
+- "12UserActivity14AnnotationViewC"
+- !private "So10CLLocationC"
+- !private "So22CLLocationCoordinate2DV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "SH"
+- "So12MKAnnotationP"
+- "So17MKPointAnnotationC"
+- "So7MKShapeC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "12UserActivity5UsersV"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b8ad5e867c1b7111bfa1f1df9b0e1839"

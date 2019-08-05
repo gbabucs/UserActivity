@@ -1,0 +1,164 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataAdapter"
+provides-nominal:
+- "12UserActivity11DataAdapterC"
+provides-member:
+- ["12UserActivity11DataAdapterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Albums"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Codable"
+- "Comments"
+- "Data"
+- "DataAdapter"
+- !private "DispatchQueue"
+- !private "JSONDecoder"
+- "Photos"
+- "Posts"
+- "Request"
+- "String"
+- "Users"
+- "Void"
+depends-member:
+- !private ["12UserActivity6AlbumsV", "deinit"]
+- !private ["12UserActivity14ApiRequestTypeO", "GET"]
+- !private ["12UserActivity13ApiRequestURLO", "albums"]
+- !private ["12UserActivity13ApiRequestURLO", "comments"]
+- !private ["12UserActivity13ApiRequestURLO", "photos"]
+- !private ["12UserActivity13ApiRequestURLO", "posts"]
+- !private ["12UserActivity13ApiRequestURLO", "users"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "performNetworkOperationWithData"]
+- !private ["12UserActivity8CommentsV", "deinit"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "performNetworkOperationWithData"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "performNetworkOperationWithData"]
+- ["12UserActivity11DataAdapterC", "Albums"]
+- ["12UserActivity11DataAdapterC", "Bool"]
+- ["12UserActivity11DataAdapterC", "Codable"]
+- ["12UserActivity11DataAdapterC", "Comments"]
+- ["12UserActivity11DataAdapterC", "Data"]
+- ["12UserActivity11DataAdapterC", "DataAdapter"]
+- ["12UserActivity11DataAdapterC", "DataCompletionHandler"]
+- !private ["12UserActivity11DataAdapterC", "DispatchQueue"]
+- ["12UserActivity11DataAdapterC", "GetListOfAlbumCompletionHandler"]
+- ["12UserActivity11DataAdapterC", "GetListOfCommentCompletionHandler"]
+- ["12UserActivity11DataAdapterC", "GetListOfPhotoCompletionHandler"]
+- ["12UserActivity11DataAdapterC", "GetListOfPostCompletionHandler"]
+- ["12UserActivity11DataAdapterC", "GetListOfUserCompletionHandler"]
+- !private ["12UserActivity11DataAdapterC", "JSONDecoder"]
+- ["12UserActivity11DataAdapterC", "Photos"]
+- ["12UserActivity11DataAdapterC", "Posts"]
+- ["12UserActivity11DataAdapterC", "Request"]
+- ["12UserActivity11DataAdapterC", "String"]
+- ["12UserActivity11DataAdapterC", "Users"]
+- ["12UserActivity11DataAdapterC", "Void"]
+- ["12UserActivity11DataAdapterC", "fetchAlbums"]
+- ["12UserActivity11DataAdapterC", "fetchComments"]
+- !private ["12UserActivity11DataAdapterC", "fetchData"]
+- ["12UserActivity11DataAdapterC", "fetchPhotos"]
+- ["12UserActivity11DataAdapterC", "fetchPosts"]
+- ["12UserActivity11DataAdapterC", "fetchUsers"]
+- ["12UserActivity11DataAdapterC", "init"]
+- ["12UserActivity11DataAdapterC", "processData"]
+- ["12UserActivity11DataAdapterC", "shared"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SQ", "GET"]
+- !private ["SQ", "async"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "performNetworkOperationWithData"]
+- !private ["SH", "GET"]
+- !private ["SH", "async"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "performNetworkOperationWithData"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "performNetworkOperationWithData"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "performNetworkOperationWithData"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["12UserActivity6PhotosV", "deinit"]
+- !private ["12UserActivity5PostsV", "deinit"]
+- !private ["SY", "GET"]
+- !private ["12UserActivity7RequestC", "init"]
+- !private ["12UserActivity7RequestC", "performNetworkOperationWithData"]
+- !private ["12UserActivity5UsersV", "deinit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performNetworkOperationWithData"]
+depends-nominal:
+- !private "12UserActivity6AlbumsV"
+- !private "12UserActivity14ApiRequestTypeO"
+- !private "12UserActivity13ApiRequestURLO"
+- !private "s7CVarArgP"
+- !private "12UserActivity8CommentsV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "12UserActivity11DataAdapterC"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SQ"
+- !private "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So9OS_objectC"
+- !private "12UserActivity6PhotosV"
+- !private "12UserActivity5PostsV"
+- !private "SY"
+- !private "12UserActivity7RequestC"
+- !private "12UserActivity5UsersV"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7788c575745880d76431dbefb1e4c124"

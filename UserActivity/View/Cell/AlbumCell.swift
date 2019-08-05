@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ActivityFramework
 
 class AlbumCell: UITableViewCell {
     @IBOutlet weak var title: UILabel!

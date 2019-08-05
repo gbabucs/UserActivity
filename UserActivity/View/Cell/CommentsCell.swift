@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ActivityFramework
 
 class CommentsCell: UITableViewCell {
     

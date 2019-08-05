@@ -8,6 +8,7 @@
 
 import UIKit
 import Nuke
+import ActivityFramework
 
 class PhotoCollectionCell: UICollectionViewCell {
     @IBOutlet weak var title: UILabel!

@@ -12,6 +12,8 @@ target 'UserActivity' do
   pod 'IHProgressHUD'
   pod 'Nuke'
   pod 'SDWebImage', '~> 5.0'
+  
+  pod 'ActivityFramework', :git => 'https://github.com/gbabucs/ActivityFramework.git'
 
   target 'UserActivityTests' do
     inherit! :search_paths
@@ -26,6 +28,7 @@ target 'UserActivity' do
     pod 'IHProgressHUD'
     pod 'Nuke'
     pod 'SDWebImage', '~> 5.0'
+    pod 'ActivityFramework', :git => 'https://github.com/gbabucs/ActivityFramework.git'
   end
 
 end

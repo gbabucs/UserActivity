@@ -1,0 +1,263 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ApiRequestType"
+- "ApiRequestURL"
+- "Request"
+provides-nominal:
+- "12UserActivity14ApiRequestTypeO"
+- "12UserActivity13ApiRequestURLO"
+- "12UserActivity7RequestC"
+provides-member:
+- ["12UserActivity14ApiRequestTypeO", ""]
+- ["12UserActivity13ApiRequestURLO", ""]
+- ["12UserActivity7RequestC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "=="
+- "ApiRequestType"
+- "ApiRequestURL"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Data"
+- "Error"
+- "NSObject"
+- !private "NetworkConnector"
+- "Request"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- !private "URLRequest"
+- "UnicodeScalarType"
+- "Void"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["12UserActivity14ApiRequestTypeO", "=="]
+- ["12UserActivity14ApiRequestTypeO", "DELETE"]
+- ["12UserActivity14ApiRequestTypeO", "GET"]
+- ["12UserActivity14ApiRequestTypeO", "POST"]
+- ["12UserActivity14ApiRequestTypeO", "PUT"]
+- ["12UserActivity14ApiRequestTypeO", "RawValue"]
+- ["12UserActivity14ApiRequestTypeO", "_Default_RawValue"]
+- !private ["12UserActivity14ApiRequestTypeO", "_findStringSwitchCase"]
+- ["12UserActivity14ApiRequestTypeO", "_rawHashValue"]
+- ["12UserActivity14ApiRequestTypeO", "deinit"]
+- ["12UserActivity14ApiRequestTypeO", "hash"]
+- ["12UserActivity14ApiRequestTypeO", "hashValue"]
+- ["12UserActivity14ApiRequestTypeO", "init"]
+- ["12UserActivity14ApiRequestTypeO", "rawValue"]
+- ["12UserActivity13ApiRequestURLO", "String"]
+- ["12UserActivity13ApiRequestURLO", "albums"]
+- ["12UserActivity13ApiRequestURLO", "comments"]
+- ["12UserActivity13ApiRequestURLO", "photos"]
+- ["12UserActivity13ApiRequestURLO", "posts"]
+- ["12UserActivity13ApiRequestURLO", "users"]
+- ["12UserActivity13ApiRequestURLO", "value"]
+- !private ["s7CVarArgP", "NetworkConnector"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLRequest"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "baseURL"]
+- !private ["s7CVarArgP", "endpoint"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "networkRequest"]
+- !private ["s7CVarArgP", "requestMethod"]
+- !private ["s7CVarArgP", "requestURL"]
+- !private ["s28CustomDebugStringConvertibleP", "NetworkConnector"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "baseURL"]
+- !private ["s28CustomDebugStringConvertibleP", "endpoint"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "networkRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "requestMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "requestURL"]
+- !private ["s17CustomReflectableP", "httpMethod"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NetworkConnector"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "baseURL"]
+- !private ["s23CustomStringConvertibleP", "endpoint"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "networkRequest"]
+- !private ["s23CustomStringConvertibleP", "requestMethod"]
+- !private ["s23CustomStringConvertibleP", "requestURL"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- !private ["SQ", "GET"]
+- !private ["SQ", "NetworkConnector"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "URLRequest"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "baseURL"]
+- !private ["SQ", "endpoint"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "httpMethod"]
+- ["SQ", "init"]
+- !private ["SQ", "networkRequest"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "requestMethod"]
+- !private ["SQ", "requestURL"]
+- ["SH", "=="]
+- !private ["SH", "GET"]
+- !private ["SH", "NetworkConnector"]
+- ["SH", "RawValue"]
+- !private ["SH", "URL"]
+- !private ["SH", "URLRequest"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "baseURL"]
+- !private ["SH", "endpoint"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "httpMethod"]
+- ["SH", "init"]
+- !private ["SH", "networkRequest"]
+- ["SH", "rawValue"]
+- !private ["SH", "requestMethod"]
+- !private ["SH", "requestURL"]
+- ["So8NSObjectC", "ApiRequestType"]
+- ["So8NSObjectC", "ApiRequestURL"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "NetworkConnector"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "baseURL"]
+- ["So8NSObjectC", "endpoint"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "networkRequest"]
+- ["So8NSObjectC", "performNetworkOperationWithData"]
+- ["So8NSObjectC", "requestMethod"]
+- ["So8NSObjectC", "requestURL"]
+- !private ["So8NSObjectP", "NetworkConnector"]
+- !private ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "URLRequest"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "baseURL"]
+- !private ["So8NSObjectP", "endpoint"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "networkRequest"]
+- !private ["So8NSObjectP", "requestMethod"]
+- !private ["So8NSObjectP", "requestURL"]
+- !private ["12UserActivity16NetworkConnectorC", "networkRequest"]
+- ["SY", "=="]
+- !private ["SY", "GET"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["12UserActivity7RequestC", "ApiRequestType"]
+- ["12UserActivity7RequestC", "ApiRequestURL"]
+- ["12UserActivity7RequestC", "Bool"]
+- ["12UserActivity7RequestC", "Data"]
+- ["12UserActivity7RequestC", "Error"]
+- !private ["12UserActivity7RequestC", "NetworkConnector"]
+- ["12UserActivity7RequestC", "String"]
+- !private ["12UserActivity7RequestC", "URL"]
+- !private ["12UserActivity7RequestC", "URLRequest"]
+- ["12UserActivity7RequestC", "Void"]
+- !private ["12UserActivity7RequestC", "baseURL"]
+- ["12UserActivity7RequestC", "deinit"]
+- !private ["12UserActivity7RequestC", "endpoint"]
+- ["12UserActivity7RequestC", "init"]
+- ["12UserActivity7RequestC", "performNetworkOperationWithData"]
+- ["12UserActivity7RequestC", "requestMethod"]
+- ["12UserActivity7RequestC", "requestURL"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "httpMethod"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkConnector"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "baseURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endpoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "networkRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestMethod"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestURL"]
+- !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "12UserActivity14ApiRequestTypeO"
+- "12UserActivity13ApiRequestURLO"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "12UserActivity16NetworkConnectorC"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "12UserActivity7RequestC"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0c1e1f9a1815509ae4ecb135382f6a43"

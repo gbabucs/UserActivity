@@ -1,0 +1,6 @@
+framework module ActivityFramework {
+  umbrella header "ActivityFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

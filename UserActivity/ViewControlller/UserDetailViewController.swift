@@ -106,6 +106,10 @@ extension UserDetailViewController: CLLocationManagerDelegate {
         
         mapView.addAnnotation(annotationView)
     }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print(error)
+    }
 }
 
 extension UserDetailViewController: MKMapViewDelegate {
