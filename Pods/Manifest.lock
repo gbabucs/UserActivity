@@ -30,7 +30,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ActivityFramework:
-    :commit: 31de392e259acdf6153eca70474f693e8290a0a1
+    :commit: 0335a1eb671a2d9a19ccd82edbca98486f774b97
     :git: https://github.com/gbabucs/ActivityFramework.git
 
 SPEC CHECKSUMS:

@@ -68,15 +68,6 @@ class CommentsViewController: UIViewController {
         }
     }
     
-    private func showErrorAlert(fot title: String, message: String) {
-        let alertController = UIAlertController(title: title , message: message , preferredStyle: .alert)
-        let dismissAction = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
-        
-        alertController.addAction(dismissAction)
-        
-        self.present(alertController, animated: true, completion: nil)
-    }
-    
     //--------------------------------------------------------------------------
     // MARK: - Helper functions
     //--------------------------------------------------------------------------

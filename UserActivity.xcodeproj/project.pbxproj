@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F0E8DA722F8709D00F056D0 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0E8DA622F8709D00F056D0 /* ViewControllerExtension.swift */; };
 		6F366EAA22F4FCC400AFB3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F366EA922F4FCC400AFB3B4 /* AppDelegate.swift */; };
 		6F366EAC22F4FCC400AFB3B4 /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F366EAB22F4FCC400AFB3B4 /* UsersListViewController.swift */; };
 		6F366EAF22F4FCC400AFB3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F366EAD22F4FCC400AFB3B4 /* Main.storyboard */; };
@@ -74,6 +75,7 @@
 
 /* Begin PBXFileReference section */
 		3D76C81864C10D085F45835F /* Pods-UserActivityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserActivityUITests.debug.xcconfig"; path = "Target Support Files/Pods-UserActivityUITests/Pods-UserActivityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F0E8DA622F8709D00F056D0 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		6F366EA622F4FCC400AFB3B4 /* UserActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F366EA922F4FCC400AFB3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F366EAB22F4FCC400AFB3B4 /* UsersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +152,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F0E8DA522F8708400F056D0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6F0E8DA622F8709D00F056D0 /* ViewControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		6F366E9D22F4FCC400AFB3B4 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +185,7 @@
 		6F366EA822F4FCC400AFB3B4 /* UserActivity */ = {
 			isa = PBXGroup;
 			children = (
+				6F0E8DA522F8708400F056D0 /* Extension */,
 				6F39DB2F22F7918100A930AA /* Mock */,
 				6FA7773422F5C63E00D5A471 /* Controller */,
 				6F366EEE22F5036500AFB3B4 /* View */,
@@ -612,6 +623,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0E8DA722F8709D00F056D0 /* ViewControllerExtension.swift in Sources */,
 				6F366EF522F506EC00AFB3B4 /* UsersListCell.swift in Sources */,
 				6F366EAC22F4FCC400AFB3B4 /* UsersListViewController.swift in Sources */,
 				6FA7773822F6E90E00D5A471 /* PostsViewController.swift in Sources */,
