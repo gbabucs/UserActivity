@@ -34,20 +34,35 @@ class UserActivityUITests: XCTestCase {
         let tablesQuery = app.tables
         
         //tablesQuery.staticTexts["Karianne"].tap()
-        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Douglas Extension, Suite 847, McKenziehaven, 59590-4157"]/*[[".cells.staticTexts[\"Douglas Extension, Suite 847, McKenziehaven, 59590-4157\"]",".staticTexts[\"Douglas Extension, Suite 847, McKenziehaven, 59590-4157\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        let query = tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Douglas Extension, Suite 847, McKenziehaven, 59590-4157"]/*[[".cells.staticTexts[\"Douglas Extension, Suite 847, McKenziehaven, 59590-4157\"]",".staticTexts[\"Douglas Extension, Suite 847, McKenziehaven, 59590-4157\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
         
-        addUIInterruptionMonitor(withDescription: "Allow “UserActivity” to access your location?") { (alert) -> Bool in
-            let button = alert.buttons["Only While Using the App"]
-            if button.exists {
-                button.tap()
-                return true
-            }
-            
-            return false
+        if query.exists {
+            XCTAssertTrue(query.exists)
+            query.tap()
+        } else {
+            XCTAssertFalse(query.exists)
+        }
+        
+        let alert = app.alerts["Allow “UserActivity” to access your location?"].buttons["Only While Using the App"]
+        
+        if alert.exists {
+            XCTAssertTrue(alert.exists)
+            alert.tap()
+        } else {
+            XCTAssertFalse(alert.exists)
         }
         
         let tabBarsQuery = app.tabBars
-        tabBarsQuery.buttons["User Information"].tap()
+        let userInfo = tabBarsQuery.buttons["User Information"]
+        
+        if userInfo.exists {
+            XCTAssertTrue(userInfo.exists)
+            userInfo.tap()
+        } else {
+            XCTAssertFalse(userInfo.exists)
+        }
+        
+
         tabBarsQuery.buttons["Post"].tap()
         app.navigationBars["Posts"].buttons["Close"].tap()
         tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Kamren"]/*[[".cells.staticTexts[\"Kamren\"]",".staticTexts[\"Kamren\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
