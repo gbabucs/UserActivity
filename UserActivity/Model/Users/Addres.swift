@@ -24,7 +24,7 @@ struct Addres : Codable {
         init(from decoder: Decoder) throws {
                 let values = try decoder.container(keyedBy: CodingKeys.self)
                 city = try values.decodeIfPresent(String.self, forKey: .city)
-                geo = try Geo(from: decoder)
+                geo = try values.decodeIfPresent(Geo.self, forKey: .geo)
                 street = try values.decodeIfPresent(String.self, forKey: .street)
                 suite = try values.decodeIfPresent(String.self, forKey: .suite)
                 zipcode = try values.decodeIfPresent(String.self, forKey: .zipcode)

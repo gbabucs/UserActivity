@@ -8,6 +8,10 @@ target 'UserActivity' do
   # Pods for UserActivity
 
   pod 'SwiftyJSON', '~> 4.0'
+  pod 'ReachabilitySwift', '4.1.0'
+  pod 'IHProgressHUD'
+  pod 'Nuke'
+  pod 'SDWebImage', '~> 5.0'
 
   target 'UserActivityTests' do
     inherit! :search_paths

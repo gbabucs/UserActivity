@@ -4,6 +4,7 @@
 //  Created on August 2, 2019
 
 import Foundation
+import SwiftyJSON
 
 struct Users : Codable {
 
@@ -29,8 +30,8 @@ struct Users : Codable {
     
         init(from decoder: Decoder) throws {
                 let values = try decoder.container(keyedBy: CodingKeys.self)
-                address = try Addres(from: decoder)
-                company = try Company(from: decoder)
+                address = try values.decodeIfPresent(Addres.self, forKey: .address)
+                company = try values.decodeIfPresent(Company.self, forKey: .company)
                 email = try values.decodeIfPresent(String.self, forKey: .email)
                 id = try values.decodeIfPresent(Int.self, forKey: .id)
                 name = try values.decodeIfPresent(String.self, forKey: .name)
@@ -40,3 +41,19 @@ struct Users : Codable {
         }
 
 }
+
+//extension Users {
+//    
+//    var userName: String {
+//        return self.userName
+//    }
+//    
+//    var addresses: String {
+//        let street = self.address?.street ?? ""
+//        let suite = self.address?.suite ?? ""
+//        let city = self.address?.city ?? ""
+//        let zipCode = self.address?.zipcode ?? ""
+//        
+//        return street + suite + city + zipCode
+//    }
+//}
