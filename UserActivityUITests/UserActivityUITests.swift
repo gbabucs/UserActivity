@@ -26,9 +26,34 @@ class UserActivityUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
+    func testNavigationOfSingleUser() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        let tablesQuery = app.tables
+        
+        //tablesQuery.staticTexts["Karianne"].tap()
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Douglas Extension, Suite 847, McKenziehaven, 59590-4157"]/*[[".cells.staticTexts[\"Douglas Extension, Suite 847, McKenziehaven, 59590-4157\"]",".staticTexts[\"Douglas Extension, Suite 847, McKenziehaven, 59590-4157\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        addUIInterruptionMonitor(withDescription: "Allow “UserActivity” to access your location?") { (alert) -> Bool in
+            let button = alert.buttons["Only While Using the App"]
+            if button.exists {
+                button.tap()
+                return true
+            }
+            
+            return false
+        }
+        
+        let tabBarsQuery = app.tabBars
+        tabBarsQuery.buttons["User Information"].tap()
+        tabBarsQuery.buttons["Post"].tap()
+        app.navigationBars["Posts"].buttons["Close"].tap()
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Kamren"]/*[[".cells.staticTexts[\"Kamren\"]",".staticTexts[\"Kamren\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app.buttons["Show Album"].tap()
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["molestiae voluptate non"]/*[[".cells.staticTexts[\"molestiae voluptate non\"]",".staticTexts[\"molestiae voluptate non\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app.navigationBars["Photos"].buttons["Album List"].tap()
     }
 
 }

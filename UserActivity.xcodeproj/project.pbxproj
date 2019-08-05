@@ -426,6 +426,7 @@
 				6F366EC122F4FCC500AFB3B4 /* Sources */,
 				6F366EC222F4FCC500AFB3B4 /* Frameworks */,
 				6F366EC322F4FCC500AFB3B4 /* Resources */,
+				8850241E04510989F9E01875 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -584,6 +585,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UserActivity/Pods-UserActivity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8850241E04510989F9E01875 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UserActivityUITests/Pods-UserActivityUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IHProgressHUD/IHProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UserActivityUITests/Pods-UserActivityUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A4B3F803A19CDB1AE0E3667F /* [CP] Check Pods Manifest.lock */ = {
@@ -953,7 +984,7 @@
 				6F366ECD22F4FCC500AFB3B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		6F366ECE22F4FCC500AFB3B4 /* Build configuration list for PBXNativeTarget "UserActivity" */ = {
 			isa = XCConfigurationList;
@@ -962,7 +993,7 @@
 				6F366ED022F4FCC500AFB3B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		6F366ED122F4FCC500AFB3B4 /* Build configuration list for PBXNativeTarget "UserActivityTests" */ = {
 			isa = XCConfigurationList;
@@ -971,7 +1002,7 @@
 				6F366ED322F4FCC500AFB3B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		6F366ED422F4FCC500AFB3B4 /* Build configuration list for PBXNativeTarget "UserActivityUITests" */ = {
 			isa = XCConfigurationList;
@@ -980,7 +1011,7 @@
 				6F366ED622F4FCC500AFB3B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
